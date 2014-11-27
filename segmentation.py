@@ -3,6 +3,7 @@
 ### Segmentation performed using orfeo toolbox
 ### The workflow is documented here
 ### http://www.orfeo-toolbox.org/CookBook/CookBooksu42.html
+### Steps 1 and 2
 
 from __future__ import print_function
 import os,sys
@@ -122,7 +123,7 @@ for image in images :
     
 	os.system(cmdln)
     
-print("Segmentation completed") 
+print("Segmentation completed.") 
 
 
 
