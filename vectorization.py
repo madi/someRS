@@ -64,7 +64,7 @@ for image in images :
 	print(image)
 	
 	path_input = '"'INPUT_FOLDER + image + '.tif" '
-	path_inseg = '"'DESTINATION_FOLDER + image + '_SEG.tif" '
+	path_inseg = '"'DESTINATION_FOLDER + image + '_MERGED.tif" '
 	path_out = '"'DESTINATION_FOLDER + image + '_SEG_VECT.shp" '
 
 	cmdln1 = '/usr/bin/otbcli_LSMSVectorization -in ' + path_input
@@ -77,6 +77,7 @@ for image in images :
     
 	os.system(cmdln)
 	
+print("Vectorization completed.")     
 	
 	
 	
