@@ -1,0 +1,1 @@
+This is a set of scripts that run Orfeo Toolbox. The scripts are strongly inspired by the OTB Cookbook at http://www.orfeo-toolbox.org/CookBook
