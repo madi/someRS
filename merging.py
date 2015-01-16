@@ -14,8 +14,8 @@ import argparse
 parser = argparse.ArgumentParser(description = 'Segmentation performed \
 using orfeo toolbox. The workflow is documented here: \
 http://www.orfeo-toolbox.org/CookBook/CookBooksu42.html \
-This module is the step 3 of the work flow and performs Mean-Shift \
-smoothing and consequent segmentation on a bunch of images \
+This module is the step 3 of the work flow and merges small regions. \
+This operation is performed on a bunch of images \
 stored in a folder. You need to indicate the input and the output folder. \
 For tweacking the parameters, you need to look up into the code.')
 
