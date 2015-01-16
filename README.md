@@ -1,7 +1,7 @@
 Segmentation with Orfeo Toolbox
 ===============================
 
-This is a set of scripts that allow to run OTB tools over a folder.
+This set of python scripts allows to run OTB tools over a folder.
 You can indicate an input folder and an output folder. The scripts will 
 process all the images that are stored in the input folder. The scripts 
 perform the workflow described in the OTB Cookbook at 
@@ -19,7 +19,7 @@ The work flow is composed of 4 steps:
 distance is below the ranger parameter and spatial distance  below the 
 *spatialr* parameter
 
-3. Merging small regions -  filter out small segments
+3. Merging small regions - filter out small segments
 
 4. Vectorization - produce a vector file containing one polygon per 
 segment, each of these polygons holding additional attributes denoting 
