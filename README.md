@@ -1,7 +1,17 @@
 Segmentation with Orfeo Toolbox
 ===============================
 
+What
+----
 This set of python scripts allows to run OTB tools over a folder.
+
+Why
+---
+It's practical when you have several tiles and / or several bands to
+process.
+
+How
+---
 You can indicate an input folder and an output folder. The scripts will 
 process all the images that are stored in the input folder. The scripts 
 perform the workflow described in the OTB Cookbook at 
