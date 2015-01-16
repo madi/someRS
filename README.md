@@ -33,3 +33,8 @@ They are meant to be used via command line. To get more information on
 the usage, for example about **segmentation.py**, type in the terminal:
 
 > python segmentation.py --help
+
+Notes
+-----
+
+* When you type the folder, remember to put the final / character.
