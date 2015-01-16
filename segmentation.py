@@ -11,7 +11,10 @@ import glob
 import argparse
 
 parser = argparse.ArgumentParser(description = 'Segmentation performed using orfeo toolbox. \
-The workflow is documented here: http://www.orfeo-toolbox.org/CookBook/CookBooksu42.html')
+The workflow is documented here: http://www.orfeo-toolbox.org/CookBook/CookBooksu42.html \
+This module performs Mean-Shift smoothing and consequent segmentation on a bunch of images \
+stored in a folder. You need to indicate the input and the output folder. \
+For tweacking the parameters, you need to look up into the code.')
 
 parser.add_argument('--infolder', dest = "infolder",
 help = "Folder where the images to be processed are. All the tif files in the folder will be processed.")
